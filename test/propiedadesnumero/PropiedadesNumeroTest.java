@@ -18,6 +18,7 @@ public class PropiedadesNumeroTest {
     public void testEsPrimoTrue() {
         propiedades numero = new propiedades();
         assertEquals(true, numero.esPrimo(11));
+        assertEquals(true, numero.esPrimo(991));
     }
     
     @Test
